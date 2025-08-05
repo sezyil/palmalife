@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>Gallery Test</title>
+    <link href="tr/css/bootstrap.min.css" rel="stylesheet">
+    <link href="tr/css/style.css" rel="stylesheet">
+    <link href="tr/css/vendors.min.css" rel="stylesheet">
+    <link href="tr/css/custom.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container margin_120_95">
+        <div class="title text-center mb-5">
+            <small>Keşfet</small>
+            <h2>Palmalife Galeri Test</h2>
+        </div>
+        
+        <!-- Gallery Categories -->
+        <div class="text-center">
+            <div class="gallery-categories">
+                <button class="gallery-category active" data-category="rooms">Odalar</button>
+                <button class="gallery-category" data-category="restaurant">Restoran&Bar</button>
+                <button class="gallery-category" data-category="pool">Havuz & Plaj</button>
+            </div>
+        </div>
+        
+        <div class="container-fluid p-0 mt-5">
+            <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img" id="gallery-carousel">
+                <!-- Rooms Category -->
+                <div class="item" data-category="rooms">
+                    <img src="tr/assets/images/rooms/Room & Suites/1-COMFORT GARDEN ODA/1.jpg" alt="Comfort Garden Room">
+                </div>
+                <div class="item" data-category="rooms">
+                    <img src="tr/assets/images/rooms/Room & Suites/1-COMFORT GARDEN ODA/2.jpg" alt="Comfort Garden Room">
+                </div>
+                <div class="item" data-category="rooms">
+                    <img src="tr/assets/images/rooms/Room & Suites/1-COMFORT GARDEN ODA/3.jpg" alt="Comfort Garden Room">
+                </div>
+                <div class="item" data-category="rooms">
+                    <img src="tr/assets/images/rooms/Room & Suites/2-COMFORT SEA ODA/1.jpg" alt="Comfort Sea Room">
+                </div>
+                <div class="item" data-category="rooms">
+                    <img src="tr/assets/images/rooms/Room & Suites/2-COMFORT SEA ODA/2.jpg" alt="Comfort Sea Room">
+                </div>
+                
+                <!-- Restaurant Category -->
+                <div class="item" data-category="restaurant">
+                    <img src="tr/assets/images/restaurant/1.jpg" alt="Restaurant">
+                </div>
+                <div class="item" data-category="restaurant">
+                    <img src="tr/assets/images/restaurant/2.jpg" alt="Restaurant">
+                </div>
+                
+                <!-- Pool Category -->
+                <div class="item" data-category="pool">
+                    <img src="tr/assets/images/pool-beach/1000x625_1.png" alt="Pool">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="tr/js/jquery-3.6.0.min.js"></script>
+    <script src="tr/js/common_functions.js"></script>
+    <script src="tr/js/gallery-filter.js"></script>
+</body>
+</html>

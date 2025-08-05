@@ -1,0 +1,184 @@
+/* Booking Widget Styles */
+.booking-widget-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 20px 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.booking-widget-container .form-group {
+    position: relative;
+    min-width: 150px;
+    flex: 1;
+}
+
+.booking-widget-container .form-group label {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.booking-widget-container .form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: white;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+    height: 45px;
+}
+
+.booking-widget-container .form-control:focus {
+    border-color: #416040;
+    box-shadow: 0 0 0 3px rgba(65, 96, 64, 0.1);
+}
+
+.booking-widget-container select.form-control {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+.booking-widget-container input[type="date"].form-control {
+    cursor: pointer;
+}
+
+.booking-widget-container .reservation-btn {
+    background: #416040;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-widget-container .reservation-btn:hover {
+    background: #365538;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(65, 96, 64, 0.3);
+}
+
+.booking-widget-container .reservation-btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .booking-widget-container {
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 15px;
+        max-width: 90%;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .booking-widget-container .form-group {
+        min-width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .booking-widget-container .form-group label {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    .booking-widget-container .form-control {
+        padding: 8px 10px;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .booking-widget-container .reservation-btn {
+        width: 100%;
+        margin-top: 6px;
+        padding: 10px 15px;
+        font-size: 13px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .booking-widget-container {
+        padding: 18px;
+        border-radius: 12px;
+        max-width: 85%;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .booking-widget-container .form-group {
+        margin-bottom: 6px;
+    }
+
+    .booking-widget-container .form-group label {
+        font-size: 9px;
+    }
+
+    .booking-widget-container .form-control {
+        padding: 6px 8px;
+        font-size: 11px;
+        height: 32px;
+    }
+
+    .booking-widget-container .reservation-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 360px) {
+    .booking-widget-container {
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 80%;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .booking-widget-container .form-group {
+        margin-bottom: 5px;
+    }
+
+    .booking-widget-container .form-group label {
+        font-size: 8px;
+    }
+
+    .booking-widget-container .form-control {
+        padding: 5px 6px;
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .booking-widget-container .reservation-btn {
+        padding: 6px 10px;
+        font-size: 11px;
+        height: 32px;
+    }
+} 
