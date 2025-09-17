@@ -2,10 +2,8 @@
 
 	"use strict";
 	
-	// Fast preloader and hero animations
+	// Fast hero animations
 	$(window).on('load', function () {
-		$('[data-loader="circle-side"]').fadeOut(50);
-		$('#preloader').addClass('loaded');
 		$('.animate_hero').addClass('is-transitioned');
 	});
 
