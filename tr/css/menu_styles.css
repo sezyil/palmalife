@@ -64,8 +64,8 @@ Author URI: https://gokhangokus.com
   overflow: hidden;
 }
 #preloader.loaded {
-  animation: background 0.65s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  transition-delay: 1s;
+  animation: background 0.3s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-delay: 0s;
 }
 
 [data-loader=circle-side] {
@@ -3943,7 +3943,7 @@ img.rounded-img {
 }
 
 .pattern_2 {
-	background: #fff url(../assets/images/pattern_2.png) top right no-repeat;
+	background: #fff;
 }
 @media (max-width: 767px) {
   .pattern_2 {

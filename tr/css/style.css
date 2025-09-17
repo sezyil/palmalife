@@ -68,7 +68,7 @@ Author URI: https://gokhangokus.com
 }
 
 #preloader.loaded {
-  animation: background 0.05s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation: background 0.3s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transition-delay: 0s;
 }
 
@@ -4518,7 +4518,7 @@ img.rounded-img {
 }
 
 .pattern_2 {
-  background: #fff url(../assets/images/pattern_2.png) top right no-repeat;
+	background: #fff;
 }
 
 @media (max-width: 767px) {
